@@ -1,15 +1,16 @@
-.'{
+{
   "name": "chaibackend",
   "version": "1.0.0",
-  "description": "/this gonna be my first top backend project",
+  "description": "this gonna be my first top backend project",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev":"nodemon src/index"
+    "dev": "nodemon src/index"
   },
   "author": "Dekayb",
   "license": "ISC",
   "devDependencies": {
-    "nodemon": "^3.1.0"
+    "nodemon": "^3.1.0",
+    "prettier": "^3.2.5"
   }
 }
